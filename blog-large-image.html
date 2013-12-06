@@ -6,7 +6,7 @@
 
 		<!-- Basic -->
 		<meta charset="utf-8">
-		<title>About Us | Porto - Responsive HTML5 Template</title>
+		<title>Blog | Porto - Responsive HTML5 Template</title>
 		<meta name="keywords" content="HTML5 Template" />
 		<meta name="description" content="Porto - Responsive HTML5 Template">
 		<meta name="author" content="Crivos.com">
@@ -18,15 +18,18 @@
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
 
 		<!-- Libs CSS -->
-		<link rel="stylesheet" href="css/bootstrap2.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
 		<link rel="stylesheet" href="vendor/flexslider/flexslider.css" media="screen" />
 		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen" />
 
 		<!-- Theme CSS -->
-		<link rel="stylesheet" href="css/theme2.css">
-		<link rel="stylesheet" href="css/theme-elements2.css">
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
 		<link rel="stylesheet" href="css/theme-animate.css">
+
+		<!-- Current Page Styles -->
+		<link rel="stylesheet" href="css/theme-blog.css" media="screen" />
 
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="css/custom.css">
@@ -35,7 +38,7 @@
 		<link rel="stylesheet" href="css/skins/blue.css">
 
 		<!-- Responsive CSS -->
-		<link rel="stylesheet" href="css/bootstrap-responsive2.css" />
+		<link rel="stylesheet" href="css/bootstrap-responsive.css" />
 		<link rel="stylesheet" href="css/theme-responsive.css" />
 
 		<!-- Favicons -->
@@ -125,10 +128,10 @@
 									<li><a href="index-one-page.html">One Page Website</a></li>
 								</ul>
 							</li>
-							<li class="active">
+							<li>
 								<a href="about-us.html">About Us</a>
 							</li>
-							<li class="dropdown">
+							<li class="dropdown active">
 								<a class="dropdown-toggle" href="#">
 									Features
 									<i class="icon-angle-down"></i>
@@ -224,14 +227,14 @@
 						<div class="row">
 							<div class="span12">
 								<ul class="breadcrumb">
-									<li><a href="index.html">Home</a> <span class="divider">/</span></li>
-									<li class="active">About Us</li>
+									<li><a href="#">Blog</a> <span class="divider">/</span></li>
+									<li class="active">Large Image</li>
 								</ul>
 							</div>
 						</div>
 						<div class="row">
 							<div class="span12">
-								<h2>About Us</h2>
+								<h2>Blog</h2>
 							</div>
 						</div>
 					</div>
@@ -239,95 +242,259 @@
 
 				<div class="container">
 
-					<h2>The New Way to <strong>Success</strong></h2>
-
 					<div class="row">
-						<div class="span10">
-							<p class="lead">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non <span class="alternative-font">metus.</span> pulvinar. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu risus enim, ut pulvinar lectus. Sed hendrerit nibh.
-							</p>
-						</div>
-						<div class="span2">
-							<a href="#" class="btn btn-large btn-primary pull-top">Join Our Team!</a>
-						</div>
-					</div>
+						<div class="span9">
+							<div class="blog-posts">
 
-					<hr class="tall">
+								<article class="post post-large-image">
+									<div class="post-image">
+										<div class="flexslider flexslider-center-mobile flexslider-simple" data-plugin-options='{"controlNav":false, "animation":"slide", "slideshow": false, "maxVisibleItems": 1}'>
+											<ul class="slides">
+												<li>
+													<img class="img-rounded" src="img/blog/blog-image-1.jpg" alt="">
+												</li>
+												<li>
+													<img class="img-rounded" src="img/blog/blog-image-2.jpg" alt="">
+												</li>
+												<li>
+													<img class="img-rounded" src="img/blog/blog-image-3.jpg" alt="">
+												</li>
+											</ul>
+										</div>
+									</div>
 
-					<div class="row">
-						<div class="span8">
-							<h3><strong>Who</strong> We Are</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
-							<p>Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing <span class="alternative-font">metus</span> sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula.</p>
-						</div>
-						<div class="span4">
-							<div class="featured-box featured-box-secundary">
-								<div class="box-content">
-									<h4>Behind the scenes</h4>
-									<ul class="flickr-feed" data-plugin-options='{"qstrings": { "id": "93691989@N03" }}'></ul>
+									<div class="post-date">
+										<span class="day">10</span>
+										<span class="month">Jan</span>
+									</div>
+
+									<div class="post-content">
+
+										<h2><a href="blog-post.html">Class aptent taciti sociosqu ad litora torquent</a></h2>
+										<p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendrerit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]</p>
+
+										<div class="post-meta">
+											<span><i class="icon-user"></i> By <a href="#">John Doe</a> </span>
+											<span><i class="icon-tag"></i> <a href="#">Duis</a>, <a href="#">News</a> </span>
+											<span><i class="icon-comments"></i> <a href="#">12 Comments</a></span>
+											<a href="blog-post.html" class="btn btn-mini btn-primary pull-right">Read more...</a>
+										</div>
+
+									</div>
+								</article>
+
+								<article class="post post-large-image">
+									<div class="post-image">
+										<div class="flexslider flexslider-center-mobile flexslider-simple" data-plugin-options='{"controlNav":false, "animation":"slide", "slideshow": false, "maxVisibleItems": 1}'>
+											<ul class="slides">
+												<li>
+													<img class="img-rounded" src="img/blog/blog-image-2.jpg" alt="">
+												</li>
+												<li>
+													<img class="img-rounded" src="img/blog/blog-image-3.jpg" alt="">
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="post-date">
+										<span class="day">10</span>
+										<span class="month">Jan</span>
+									</div>
+
+									<div class="post-content">
+
+										<h2><a href="blog-post.html">Class aptent taciti sociosqu ad litora torquent</a></h2>
+										<p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendrerit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]</p>
+
+										<div class="post-meta">
+											<span><i class="icon-user"></i> By <a href="#">John Doe</a> </span>
+											<span><i class="icon-tag"></i> <a href="#">Duis</a>, <a href="#">News</a> </span>
+											<span><i class="icon-comments"></i> <a href="#">12 Comments</a></span>
+											<a href="blog-post.html" class="btn btn-mini btn-primary pull-right">Read more...</a>
+										</div>
+
+									</div>
+								</article>
+
+								<article class="post post-large-image">
+									<div class="post-image">
+										<div class="flexslider flexslider-center-mobile flexslider-simple" data-plugin-options='{"controlNav":false, "animation":"slide", "slideshow": false, "maxVisibleItems": 1}'>
+											<ul class="slides">
+												<li>
+													<img class="img-rounded" src="img/blog/blog-image-3.jpg" alt="">
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="post-date">
+										<span class="day">10</span>
+										<span class="month">Jan</span>
+									</div>
+
+									<div class="post-content">
+
+										<h2><a href="blog-post.html">Class aptent taciti sociosqu ad litora torquent</a></h2>
+										<p>Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendrerit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]</p>
+
+										<div class="post-meta">
+											<span><i class="icon-user"></i> By <a href="#">John Doe</a> </span>
+											<span><i class="icon-tag"></i> <a href="#">Duis</a>, <a href="#">News</a> </span>
+											<span><i class="icon-comments"></i> <a href="#">12 Comments</a></span>
+											<a href="blog-post.html" class="btn btn-mini btn-primary pull-right">Read more...</a>
+										</div>
+
+									</div>
+								</article>
+
+								<div class="pagination pagination-large pull-right">
+									<ul>
+										<li><a href="#">«</a></li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">»</a></li>
+									</ul>
 								</div>
+
 							</div>
 						</div>
-					</div>
 
-					<hr class="tall">
+						<div class="span3">
+							<aside class="sidebar">
 
-					<div class="row">
-						<div class="span12">
-							<h3 class="pull-top">Our <strong>History</strong></h3>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="span12">
-
-							<ul class="timeline">
-								<li data-appear-animation="fadeInUp">
-									<div class="thumb" data-appear-animation="fadeInRight">
-										<img src="img/office-4.jpg" alt="" />
+								<form class="form-search">
+									<div class="input-append">
+										<input type="text" class="span2 search-query" placeholder="Search the blog...">
+										<button type="submit" class="btn btn-primary"><i class="icon-search"></i></button>
 									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4><strong>2012</strong></h4>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus,</p>
+								</form>
+
+								<hr />
+
+								<h4>Categories</h4>
+								<ul class="nav nav-list primary pull-bottom">
+									<li><a href="#">Design</a></li>
+									<li><a href="#">Photos</a></li>
+									<li><a href="#">Videos</a></li>
+									<li><a href="#">Lifestyle</a></li>
+									<li><a href="#">Technology</a></li>
+								</ul>
+
+								<div class="tabs">
+									<ul class="nav nav-tabs">
+										<li class="active"><a href="#popularPosts" data-toggle="tab"><i class="icon-star"></i> Popular</a></li>
+										<li><a href="#recentPosts" data-toggle="tab">Recent</a></li>
+									</ul>
+									<div class="tab-content">
+										<div class="tab-pane active" id="popularPosts">
+											<ul class="simple-post-list">
+												<li>
+													<div class="post-image">
+														<div class="thumbnail">
+															<a href="blog-single.html">
+																<img src="img/blog/blog-thumb-1.jpg" alt="">
+															</a>
+														</div>
+													</div>
+													<div class="post-info">
+														<a href="blog-single.html">Nullam Vitae Nibh Un Odiosters</a>
+														<div class="post-meta">
+															 Jan 10, 2013
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="post-image">
+														<div class="thumbnail">
+															<a href="blog-single.html">
+																<img src="img/blog/blog-thumb-2.jpg" alt="">
+															</a>
+														</div>
+													</div>
+													<div class="post-info">
+														<a href="blog-single.html">Vitae Nibh Un Odiosters</a>
+														<div class="post-meta">
+															 Jan 10, 2013
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="post-image">
+														<div class="thumbnail">
+															<a href="blog-single.html">
+																<img src="img/blog/blog-thumb-3.jpg" alt="">
+															</a>
+														</div>
+													</div>
+													<div class="post-info">
+														<a href="blog-single.html">Odiosters Nullam Vitae</a>
+														<div class="post-meta">
+															 Jan 10, 2013
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="tab-pane" id="recentPosts">
+											<ul class="simple-post-list">
+												<li>
+													<div class="post-image">
+														<div class="thumbnail">
+															<a href="blog-single.html">
+																<img src="img/blog/blog-thumb-2.jpg" alt="">
+															</a>
+														</div>
+													</div>
+													<div class="post-info">
+														<a href="blog-single.html">Vitae Nibh Un Odiosters</a>
+														<div class="post-meta">
+															 Jan 10, 2013
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="post-image">
+														<div class="thumbnail">
+															<a href="blog-single.html">
+																<img src="img/blog/blog-thumb-3.jpg" alt="">
+															</a>
+														</div>
+													</div>
+													<div class="post-info">
+														<a href="blog-single.html">Odiosters Nullam Vitae</a>
+														<div class="post-meta">
+															 Jan 10, 2013
+														</div>
+													</div>
+												</li>
+												<li>
+													<div class="post-image">
+														<div class="thumbnail">
+															<a href="blog-single.html">
+																<img src="img/blog/blog-thumb-1.jpg" alt="">
+															</a>
+														</div>
+													</div>
+													<div class="post-info">
+														<a href="blog-single.html">Nullam Vitae Nibh Un Odiosters</a>
+														<div class="post-meta">
+															 Jan 10, 2013
+														</div>
+													</div>
+												</li>
+											</ul>
 										</div>
 									</div>
-								</li>
-								<li data-appear-animation="fadeInUp">
-									<div class="thumb" data-appear-animation="fadeInRight">
-										<img src="img/office-3.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4><strong>2010</strong></h4>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia.</p>
-										</div>
-									</div>
-								</li>
-								<li data-appear-animation="fadeInUp">
-									<div class="thumb" data-appear-animation="fadeInRight">
-										<img src="img/office-2.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4><strong>2005</strong></h4>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus,</p>
-										</div>
-									</div>
-								</li>
-								<li data-appear-animation="fadeInUp">
-									<div class="thumb" data-appear-animation="fadeInRight">
-										<img src="img/office-1.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4><strong>2000</strong></h4>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus,</p>
-										</div>
-									</div>
-								</li>
-							</ul>
+								</div>
 
+								<hr />
+
+								<h4>About Us</h4>
+								<p>Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Nulla nunc dui, tristique in semper vel. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. </p>
+
+							</aside>
 						</div>
 					</div>
 
@@ -413,7 +580,8 @@
 				</div>
 			</footer>
 		</div>
-<!-- Libs -->
+
+		<!-- Libs -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="vendor/jquery.js"><\/script>')</script>
 		<script src="vendor/jquery.easing.js"></script>
